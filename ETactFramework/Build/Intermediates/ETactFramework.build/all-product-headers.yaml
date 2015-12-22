@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ETactFramework-Swift.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Headers/ETactFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETactFramework.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETactFramework.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Intermediates/ETactFramework.build/Debug-iphoneos/ETactFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

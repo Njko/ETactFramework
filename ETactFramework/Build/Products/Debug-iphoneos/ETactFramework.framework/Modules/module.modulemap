@@ -1,0 +1,6 @@
+framework module ETactFramework {
+  umbrella header "ETactFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10522DA4720AAF140FDD5699 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C665EC7D799FD7F9D7F9B79 /* Pods.framework */; };
+		E60953861C1F30D500A9DA21 /* BLEChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60953851C1F30D500A9DA21 /* BLEChartViewController.m */; };
+		E65652F51C18912C00358B0A /* LoggerDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E65652F41C18912C00358B0A /* LoggerDecorator.m */; };
+		E6DFC7221C186AA800227726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7211C186AA800227726 /* main.m */; };
+		E6DFC7251C186AA800227726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7241C186AA800227726 /* AppDelegate.m */; };
+		E6DFC7281C186AA800227726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7271C186AA800227726 /* ViewController.m */; };
+		E6DFC72B1C186AA800227726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DFC7291C186AA800227726 /* Main.storyboard */; };
+		E6DFC72D1C186AA800227726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DFC72C1C186AA800227726 /* Assets.xcassets */; };
+		E6DFC7301C186AA800227726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DFC72E1C186AA800227726 /* LaunchScreen.storyboard */; };
+		E6DFC74C1C186AC200227726 /* ETBartDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7381C186AC200227726 /* ETBartDataHelper.m */; };
+		E6DFC74D1C186AC200227726 /* ETReadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC73B1C186AC200227726 /* ETReadHandler.m */; };
+		E6DFC74E1C186AC200227726 /* ETBartData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC73E1C186AC200227726 /* ETBartData.m */; };
+		E6DFC74F1C186AC200227726 /* ETCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7401C186AC200227726 /* ETCommand.m */; };
+		E6DFC7501C186AC200227726 /* ETInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7421C186AC200227726 /* ETInstructions.m */; };
+		E6DFC7511C186AC200227726 /* ETDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7451C186AC200227726 /* ETDataReaderController.m */; };
+		E6DFC7521C186AC200227726 /* ETByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7481C186AC200227726 /* ETByteUtils.m */; };
+		E6DFC7531C186AC200227726 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DFC7491C186AC200227726 /* libRscMgrUniv.a */; };
+		E6EBBE971C1EC1B700847C75 /* ETBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBBE961C1EC1B700847C75 /* ETBleController.m */; };
+		E6EBBE991C1EC1CC00847C75 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBBE981C1EC1CC00847C75 /* CoreBluetooth.framework */; };
+		E6EBBEA21C1EDECB00847C75 /* ETBleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBBEA11C1EDECB00847C75 /* ETBleData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02ABA30934AFBFC03BB06FD9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1C665EC7D799FD7F9D7F9B79 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF2FD69699F5959921CA6D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E60953841C1F30D500A9DA21 /* BLEChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEChartViewController.h; sourceTree = "<group>"; };
+		E60953851C1F30D500A9DA21 /* BLEChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEChartViewController.m; sourceTree = "<group>"; };
+		E65652F31C18912C00358B0A /* LoggerDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerDecorator.h; sourceTree = "<group>"; };
+		E65652F41C18912C00358B0A /* LoggerDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerDecorator.m; sourceTree = "<group>"; };
+		E6DFC71D1C186AA800227726 /* ETactFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETactFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DFC7211C186AA800227726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6DFC7231C186AA800227726 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6DFC7241C186AA800227726 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6DFC7261C186AA800227726 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6DFC7271C186AA800227726 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6DFC72A1C186AA800227726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6DFC72C1C186AA800227726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6DFC72F1C186AA800227726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6DFC7311C186AA800227726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DFC7371C186AC200227726 /* ETBartDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBartDataHelper.h; sourceTree = "<group>"; };
+		E6DFC7381C186AC200227726 /* ETBartDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBartDataHelper.m; sourceTree = "<group>"; };
+		E6DFC7391C186AC200227726 /* ETReadHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETReadHandlerDelegate.h; sourceTree = "<group>"; };
+		E6DFC73A1C186AC200227726 /* ETReadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETReadHandler.h; sourceTree = "<group>"; };
+		E6DFC73B1C186AC200227726 /* ETReadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETReadHandler.m; sourceTree = "<group>"; };
+		E6DFC73D1C186AC200227726 /* ETBartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBartData.h; sourceTree = "<group>"; };
+		E6DFC73E1C186AC200227726 /* ETBartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBartData.m; sourceTree = "<group>"; };
+		E6DFC73F1C186AC200227726 /* ETCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETCommand.h; sourceTree = "<group>"; };
+		E6DFC7401C186AC200227726 /* ETCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETCommand.m; sourceTree = "<group>"; };
+		E6DFC7411C186AC200227726 /* ETInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETInstructions.h; sourceTree = "<group>"; };
+		E6DFC7421C186AC200227726 /* ETInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETInstructions.m; sourceTree = "<group>"; };
+		E6DFC7431C186AC200227726 /* ETDataReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataReaderDelegate.h; sourceTree = "<group>"; };
+		E6DFC7441C186AC200227726 /* ETDataReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataReaderController.h; sourceTree = "<group>"; };
+		E6DFC7451C186AC200227726 /* ETDataReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDataReaderController.m; sourceTree = "<group>"; };
+		E6DFC7461C186AC200227726 /* ETConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETConstants.h; sourceTree = "<group>"; };
+		E6DFC7471C186AC200227726 /* ETByteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETByteUtils.h; sourceTree = "<group>"; };
+		E6DFC7481C186AC200227726 /* ETByteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETByteUtils.m; sourceTree = "<group>"; };
+		E6DFC7491C186AC200227726 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		E6DFC74A1C186AC200227726 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		E6DFC74B1C186AC200227726 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		E6EBBE951C1EC1B700847C75 /* ETBleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleController.h; sourceTree = "<group>"; };
+		E6EBBE961C1EC1B700847C75 /* ETBleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleController.m; sourceTree = "<group>"; };
+		E6EBBE981C1EC1CC00847C75 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E6EBBE9A1C1EC40A00847C75 /* ETBleReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleReaderDelegate.h; sourceTree = "<group>"; };
+		E6EBBE9D1C1ED03C00847C75 /* ETBleDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleDataHelper.h; sourceTree = "<group>"; };
+		E6EBBE9E1C1ED03C00847C75 /* ETBleDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleDataHelper.m; sourceTree = "<group>"; };
+		E6EBBEA01C1EDECB00847C75 /* ETBleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleData.h; sourceTree = "<group>"; };
+		E6EBBEA11C1EDECB00847C75 /* ETBleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DFC71A1C186AA800227726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EBBE991C1EC1CC00847C75 /* CoreBluetooth.framework in Frameworks */,
+				E6DFC7531C186AC200227726 /* libRscMgrUniv.a in Frameworks */,
+				10522DA4720AAF140FDD5699 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367C82CA0B5A5B56CE008388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBBE981C1EC1CC00847C75 /* CoreBluetooth.framework */,
+				1C665EC7D799FD7F9D7F9B79 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		990233A1778ACAFED554A832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2FD69699F5959921CA6D7 /* Pods.debug.xcconfig */,
+				02ABA30934AFBFC03BB06FD9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6DFC7141C186AA800227726 = {
+			isa = PBXGroup;
+			children = (
+				E6DFC71F1C186AA800227726 /* ETactFrameworkExample */,
+				E6DFC71E1C186AA800227726 /* Products */,
+				990233A1778ACAFED554A832 /* Pods */,
+				367C82CA0B5A5B56CE008388 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DFC71E1C186AA800227726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC71D1C186AA800227726 /* ETactFrameworkExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DFC71F1C186AA800227726 /* ETactFrameworkExample */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC7541C186AC700227726 /* Framework */,
+				E6DFC7231C186AA800227726 /* AppDelegate.h */,
+				E6DFC7241C186AA800227726 /* AppDelegate.m */,
+				E65652F31C18912C00358B0A /* LoggerDecorator.h */,
+				E65652F41C18912C00358B0A /* LoggerDecorator.m */,
+				E6DFC7261C186AA800227726 /* ViewController.h */,
+				E6DFC7271C186AA800227726 /* ViewController.m */,
+				E60953841C1F30D500A9DA21 /* BLEChartViewController.h */,
+				E60953851C1F30D500A9DA21 /* BLEChartViewController.m */,
+				E6DFC7291C186AA800227726 /* Main.storyboard */,
+				E6DFC72C1C186AA800227726 /* Assets.xcassets */,
+				E6DFC72E1C186AA800227726 /* LaunchScreen.storyboard */,
+				E6DFC7311C186AA800227726 /* Info.plist */,
+				E6DFC7201C186AA800227726 /* Supporting Files */,
+			);
+			path = ETactFrameworkExample;
+			sourceTree = "<group>";
+		};
+		E6DFC7201C186AA800227726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC7211C186AA800227726 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6DFC7541C186AC700227726 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC7371C186AC200227726 /* ETBartDataHelper.h */,
+				E6DFC7381C186AC200227726 /* ETBartDataHelper.m */,
+				E6EBBE9D1C1ED03C00847C75 /* ETBleDataHelper.h */,
+				E6EBBE9E1C1ED03C00847C75 /* ETBleDataHelper.m */,
+				E6DFC7391C186AC200227726 /* ETReadHandlerDelegate.h */,
+				E6DFC73A1C186AC200227726 /* ETReadHandler.h */,
+				E6DFC73B1C186AC200227726 /* ETReadHandler.m */,
+				E6EBBEA01C1EDECB00847C75 /* ETBleData.h */,
+				E6EBBEA11C1EDECB00847C75 /* ETBleData.m */,
+				E6DFC73D1C186AC200227726 /* ETBartData.h */,
+				E6DFC73E1C186AC200227726 /* ETBartData.m */,
+				E6DFC73F1C186AC200227726 /* ETCommand.h */,
+				E6DFC7401C186AC200227726 /* ETCommand.m */,
+				E6DFC7411C186AC200227726 /* ETInstructions.h */,
+				E6DFC7421C186AC200227726 /* ETInstructions.m */,
+				E6DFC7431C186AC200227726 /* ETDataReaderDelegate.h */,
+				E6DFC7441C186AC200227726 /* ETDataReaderController.h */,
+				E6DFC7451C186AC200227726 /* ETDataReaderController.m */,
+				E6DFC7461C186AC200227726 /* ETConstants.h */,
+				E6DFC7471C186AC200227726 /* ETByteUtils.h */,
+				E6DFC7481C186AC200227726 /* ETByteUtils.m */,
+				E6EBBE9A1C1EC40A00847C75 /* ETBleReaderDelegate.h */,
+				E6EBBE951C1EC1B700847C75 /* ETBleController.h */,
+				E6EBBE961C1EC1B700847C75 /* ETBleController.m */,
+				E6DFC7491C186AC200227726 /* libRscMgrUniv.a */,
+				E6DFC74A1C186AC200227726 /* redparkSerial.h */,
+				E6DFC74B1C186AC200227726 /* RscMgr.h */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6DFC71C1C186AA800227726 /* ETactFrameworkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DFC7341C186AA800227726 /* Build configuration list for PBXNativeTarget "ETactFrameworkExample" */;
+			buildPhases = (
+				58EF4C67C9329ED0CBCA02C7 /* Check Pods Manifest.lock */,
+				E6DFC7191C186AA800227726 /* Sources */,
+				E6DFC71A1C186AA800227726 /* Frameworks */,
+				E6DFC71B1C186AA800227726 /* Resources */,
+				C35ADE5E72BE7563402B37DF /* Embed Pods Frameworks */,
+				56BE7A38C4FE7C0970221FEB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETactFrameworkExample;
+			productName = ETactFrameworkExample;
+			productReference = E6DFC71D1C186AA800227726 /* ETactFrameworkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DFC7151C186AA800227726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MEDES;
+				TargetAttributes = {
+					E6DFC71C1C186AA800227726 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E6DFC7181C186AA800227726 /* Build configuration list for PBXProject "ETactFrameworkExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6DFC7141C186AA800227726;
+			productRefGroup = E6DFC71E1C186AA800227726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DFC71C1C186AA800227726 /* ETactFrameworkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DFC71B1C186AA800227726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DFC7301C186AA800227726 /* LaunchScreen.storyboard in Resources */,
+				E6DFC72D1C186AA800227726 /* Assets.xcassets in Resources */,
+				E6DFC72B1C186AA800227726 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56BE7A38C4FE7C0970221FEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58EF4C67C9329ED0CBCA02C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C35ADE5E72BE7563402B37DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DFC7191C186AA800227726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DFC7281C186AA800227726 /* ViewController.m in Sources */,
+				E6DFC7501C186AC200227726 /* ETInstructions.m in Sources */,
+				E6DFC74E1C186AC200227726 /* ETBartData.m in Sources */,
+				E6DFC74C1C186AC200227726 /* ETBartDataHelper.m in Sources */,
+				E6EBBEA21C1EDECB00847C75 /* ETBleData.m in Sources */,
+				E6DFC7251C186AA800227726 /* AppDelegate.m in Sources */,
+				E65652F51C18912C00358B0A /* LoggerDecorator.m in Sources */,
+				E6DFC74D1C186AC200227726 /* ETReadHandler.m in Sources */,
+				E6DFC7521C186AC200227726 /* ETByteUtils.m in Sources */,
+				E6DFC7511C186AC200227726 /* ETDataReaderController.m in Sources */,
+				E6EBBE971C1EC1B700847C75 /* ETBleController.m in Sources */,
+				E60953861C1F30D500A9DA21 /* BLEChartViewController.m in Sources */,
+				E6DFC74F1C186AC200227726 /* ETCommand.m in Sources */,
+				E6DFC7221C186AA800227726 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6DFC7291C186AA800227726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DFC72A1C186AA800227726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6DFC72E1C186AA800227726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DFC72F1C186AA800227726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6DFC7321C186AA800227726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6DFC7331C186AA800227726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6DFC7351C186AA800227726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF2FD69699F5959921CA6D7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFrameworkExample",
+				);
+				INFOPLIST_FILE = ETactFrameworkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFrameworkExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.ETactFrameworkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E6DFC7361C186AA800227726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02ABA30934AFBFC03BB06FD9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFrameworkExample",
+				);
+				INFOPLIST_FILE = ETactFrameworkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFrameworkExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.ETactFrameworkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DFC7181C186AA800227726 /* Build configuration list for PBXProject "ETactFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFC7321C186AA800227726 /* Debug */,
+				E6DFC7331C186AA800227726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DFC7341C186AA800227726 /* Build configuration list for PBXNativeTarget "ETactFrameworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFC7351C186AA800227726 /* Debug */,
+				E6DFC7361C186AA800227726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6DFC7151C186AA800227726 /* Project object */;
+}

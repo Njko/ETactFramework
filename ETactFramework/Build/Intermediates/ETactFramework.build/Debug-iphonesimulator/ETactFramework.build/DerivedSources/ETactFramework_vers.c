@@ -1,0 +1,1 @@
+ const unsigned char ETactFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:ETactFramework  PROJECT:ETactFramework-1" "\n"; const double ETactFrameworkVersionNumber __attribute__ ((used)) = (double)1.;

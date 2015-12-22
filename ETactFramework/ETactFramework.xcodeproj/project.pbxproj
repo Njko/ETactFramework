@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6DFC6DB1C15D48E00227726 /* ETactFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DFC6DA1C15D48E00227726 /* ETactFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F5D1C2950E000EFE58F /* ETBartDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F421C2950E000EFE58F /* ETBartDataHelper.h */; };
+		E6E54F5E1C2950E000EFE58F /* ETBartDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F431C2950E000EFE58F /* ETBartDataHelper.m */; };
+		E6E54F5F1C2950E000EFE58F /* ETBleDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F441C2950E000EFE58F /* ETBleDataHelper.h */; };
+		E6E54F601C2950E000EFE58F /* ETBleDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F451C2950E000EFE58F /* ETBleDataHelper.m */; };
+		E6E54F611C2950E000EFE58F /* ETReadHandlerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F461C2950E000EFE58F /* ETReadHandlerDelegate.h */; };
+		E6E54F621C2950E000EFE58F /* ETReadHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F471C2950E000EFE58F /* ETReadHandler.h */; };
+		E6E54F631C2950E000EFE58F /* ETReadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F481C2950E000EFE58F /* ETReadHandler.m */; };
+		E6E54F641C2950E000EFE58F /* ETBleData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F491C2950E000EFE58F /* ETBleData.h */; };
+		E6E54F651C2950E000EFE58F /* ETBleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4A1C2950E000EFE58F /* ETBleData.m */; };
+		E6E54F661C2950E000EFE58F /* ETBartData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4B1C2950E000EFE58F /* ETBartData.h */; };
+		E6E54F671C2950E000EFE58F /* ETBartData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4C1C2950E000EFE58F /* ETBartData.m */; };
+		E6E54F681C2950E000EFE58F /* ETCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4D1C2950E000EFE58F /* ETCommand.h */; };
+		E6E54F691C2950E000EFE58F /* ETCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4E1C2950E000EFE58F /* ETCommand.m */; };
+		E6E54F6A1C2950E000EFE58F /* ETInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4F1C2950E000EFE58F /* ETInstructions.h */; };
+		E6E54F6B1C2950E000EFE58F /* ETInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F501C2950E000EFE58F /* ETInstructions.m */; };
+		E6E54F6C1C2950E000EFE58F /* ETDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F511C2950E000EFE58F /* ETDataReaderDelegate.h */; };
+		E6E54F6D1C2950E000EFE58F /* ETDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F521C2950E000EFE58F /* ETDataReaderController.h */; };
+		E6E54F6E1C2950E000EFE58F /* ETDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F531C2950E000EFE58F /* ETDataReaderController.m */; };
+		E6E54F6F1C2950E000EFE58F /* ETConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F541C2950E000EFE58F /* ETConstants.h */; };
+		E6E54F701C2950E000EFE58F /* ETByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F551C2950E000EFE58F /* ETByteUtils.h */; };
+		E6E54F711C2950E000EFE58F /* ETByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F561C2950E000EFE58F /* ETByteUtils.m */; };
+		E6E54F721C2950E000EFE58F /* ETBleReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F571C2950E000EFE58F /* ETBleReaderDelegate.h */; };
+		E6E54F731C2950E000EFE58F /* ETBleController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F581C2950E000EFE58F /* ETBleController.h */; };
+		E6E54F741C2950E000EFE58F /* ETBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F591C2950E000EFE58F /* ETBleController.m */; };
+		E6E54F751C2950E000EFE58F /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E54F5A1C2950E000EFE58F /* libRscMgrUniv.a */; };
+		E6E54F761C2950E000EFE58F /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5B1C2950E000EFE58F /* redparkSerial.h */; };
+		E6E54F771C2950E000EFE58F /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5C1C2950E000EFE58F /* RscMgr.h */; };
+		E6E54F811C29525800EFE58F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E54F801C29525800EFE58F /* CocoaLumberjack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6DFC6D71C15D48E00227726 /* ETactFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ETactFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DFC6DA1C15D48E00227726 /* ETactFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETactFramework.h; sourceTree = "<group>"; };
+		E6DFC6DC1C15D48E00227726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E54F421C2950E000EFE58F /* ETBartDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBartDataHelper.h; sourceTree = "<group>"; };
+		E6E54F431C2950E000EFE58F /* ETBartDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBartDataHelper.m; sourceTree = "<group>"; };
+		E6E54F441C2950E000EFE58F /* ETBleDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleDataHelper.h; sourceTree = "<group>"; };
+		E6E54F451C2950E000EFE58F /* ETBleDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleDataHelper.m; sourceTree = "<group>"; };
+		E6E54F461C2950E000EFE58F /* ETReadHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETReadHandlerDelegate.h; sourceTree = "<group>"; };
+		E6E54F471C2950E000EFE58F /* ETReadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETReadHandler.h; sourceTree = "<group>"; };
+		E6E54F481C2950E000EFE58F /* ETReadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETReadHandler.m; sourceTree = "<group>"; };
+		E6E54F491C2950E000EFE58F /* ETBleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleData.h; sourceTree = "<group>"; };
+		E6E54F4A1C2950E000EFE58F /* ETBleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleData.m; sourceTree = "<group>"; };
+		E6E54F4B1C2950E000EFE58F /* ETBartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBartData.h; sourceTree = "<group>"; };
+		E6E54F4C1C2950E000EFE58F /* ETBartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBartData.m; sourceTree = "<group>"; };
+		E6E54F4D1C2950E000EFE58F /* ETCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETCommand.h; sourceTree = "<group>"; };
+		E6E54F4E1C2950E000EFE58F /* ETCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETCommand.m; sourceTree = "<group>"; };
+		E6E54F4F1C2950E000EFE58F /* ETInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETInstructions.h; sourceTree = "<group>"; };
+		E6E54F501C2950E000EFE58F /* ETInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETInstructions.m; sourceTree = "<group>"; };
+		E6E54F511C2950E000EFE58F /* ETDataReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataReaderDelegate.h; sourceTree = "<group>"; };
+		E6E54F521C2950E000EFE58F /* ETDataReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataReaderController.h; sourceTree = "<group>"; };
+		E6E54F531C2950E000EFE58F /* ETDataReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDataReaderController.m; sourceTree = "<group>"; };
+		E6E54F541C2950E000EFE58F /* ETConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETConstants.h; sourceTree = "<group>"; };
+		E6E54F551C2950E000EFE58F /* ETByteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETByteUtils.h; sourceTree = "<group>"; };
+		E6E54F561C2950E000EFE58F /* ETByteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETByteUtils.m; sourceTree = "<group>"; };
+		E6E54F571C2950E000EFE58F /* ETBleReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleReaderDelegate.h; sourceTree = "<group>"; };
+		E6E54F581C2950E000EFE58F /* ETBleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleController.h; sourceTree = "<group>"; };
+		E6E54F591C2950E000EFE58F /* ETBleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleController.m; sourceTree = "<group>"; };
+		E6E54F5A1C2950E000EFE58F /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		E6E54F5B1C2950E000EFE58F /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		E6E54F5C1C2950E000EFE58F /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		E6E54F801C29525800EFE58F /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DFC6D31C15D48E00227726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E54F811C29525800EFE58F /* CocoaLumberjack.framework in Frameworks */,
+				E6E54F751C2950E000EFE58F /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6DFC6CD1C15D48E00227726 = {
+			isa = PBXGroup;
+			children = (
+				E6DFC6D91C15D48E00227726 /* ETactFramework */,
+				E6DFC6D81C15D48E00227726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DFC6D81C15D48E00227726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC6D71C15D48E00227726 /* ETactFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DFC6D91C15D48E00227726 /* ETactFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F791C2950F400EFE58F /* Protocols */,
+				E6E54F7A1C29511800EFE58F /* Controllers */,
+				E6E54F7C1C29513F00EFE58F /* Models */,
+				E6E54F7E1C2951E900EFE58F /* Handlers */,
+				E6E54F781C2950E700EFE58F /* Helpers */,
+				E6E54F7B1C29512F00EFE58F /* Utils */,
+				E6E54F7D1C29517F00EFE58F /* Libs */,
+				E6E54F7F1C29523F00EFE58F /* Frameworks */,
+				E6DFC6DA1C15D48E00227726 /* ETactFramework.h */,
+				E6DFC6DC1C15D48E00227726 /* Info.plist */,
+			);
+			path = ETactFramework;
+			sourceTree = "<group>";
+		};
+		E6E54F781C2950E700EFE58F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F421C2950E000EFE58F /* ETBartDataHelper.h */,
+				E6E54F431C2950E000EFE58F /* ETBartDataHelper.m */,
+				E6E54F441C2950E000EFE58F /* ETBleDataHelper.h */,
+				E6E54F451C2950E000EFE58F /* ETBleDataHelper.m */,
+				E6E54F4F1C2950E000EFE58F /* ETInstructions.h */,
+				E6E54F501C2950E000EFE58F /* ETInstructions.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E6E54F791C2950F400EFE58F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F461C2950E000EFE58F /* ETReadHandlerDelegate.h */,
+				E6E54F571C2950E000EFE58F /* ETBleReaderDelegate.h */,
+				E6E54F511C2950E000EFE58F /* ETDataReaderDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E6E54F7A1C29511800EFE58F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F521C2950E000EFE58F /* ETDataReaderController.h */,
+				E6E54F531C2950E000EFE58F /* ETDataReaderController.m */,
+				E6E54F581C2950E000EFE58F /* ETBleController.h */,
+				E6E54F591C2950E000EFE58F /* ETBleController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E6E54F7B1C29512F00EFE58F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F541C2950E000EFE58F /* ETConstants.h */,
+				E6E54F551C2950E000EFE58F /* ETByteUtils.h */,
+				E6E54F561C2950E000EFE58F /* ETByteUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E6E54F7C1C29513F00EFE58F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F491C2950E000EFE58F /* ETBleData.h */,
+				E6E54F4A1C2950E000EFE58F /* ETBleData.m */,
+				E6E54F4B1C2950E000EFE58F /* ETBartData.h */,
+				E6E54F4C1C2950E000EFE58F /* ETBartData.m */,
+				E6E54F4D1C2950E000EFE58F /* ETCommand.h */,
+				E6E54F4E1C2950E000EFE58F /* ETCommand.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E6E54F7D1C29517F00EFE58F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F5A1C2950E000EFE58F /* libRscMgrUniv.a */,
+				E6E54F5B1C2950E000EFE58F /* redparkSerial.h */,
+				E6E54F5C1C2950E000EFE58F /* RscMgr.h */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		E6E54F7E1C2951E900EFE58F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F471C2950E000EFE58F /* ETReadHandler.h */,
+				E6E54F481C2950E000EFE58F /* ETReadHandler.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		E6E54F7F1C29523F00EFE58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E54F801C29525800EFE58F /* CocoaLumberjack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6DFC6D41C15D48E00227726 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E54F5F1C2950E000EFE58F /* ETBleDataHelper.h in Headers */,
+				E6E54F771C2950E000EFE58F /* RscMgr.h in Headers */,
+				E6E54F681C2950E000EFE58F /* ETCommand.h in Headers */,
+				E6E54F641C2950E000EFE58F /* ETBleData.h in Headers */,
+				E6E54F5D1C2950E000EFE58F /* ETBartDataHelper.h in Headers */,
+				E6E54F661C2950E000EFE58F /* ETBartData.h in Headers */,
+				E6E54F6C1C2950E000EFE58F /* ETDataReaderDelegate.h in Headers */,
+				E6DFC6DB1C15D48E00227726 /* ETactFramework.h in Headers */,
+				E6E54F701C2950E000EFE58F /* ETByteUtils.h in Headers */,
+				E6E54F6D1C2950E000EFE58F /* ETDataReaderController.h in Headers */,
+				E6E54F621C2950E000EFE58F /* ETReadHandler.h in Headers */,
+				E6E54F6F1C2950E000EFE58F /* ETConstants.h in Headers */,
+				E6E54F721C2950E000EFE58F /* ETBleReaderDelegate.h in Headers */,
+				E6E54F731C2950E000EFE58F /* ETBleController.h in Headers */,
+				E6E54F6A1C2950E000EFE58F /* ETInstructions.h in Headers */,
+				E6E54F761C2950E000EFE58F /* redparkSerial.h in Headers */,
+				E6E54F611C2950E000EFE58F /* ETReadHandlerDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E6DFC6D61C15D48E00227726 /* ETactFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DFC6DF1C15D48E00227726 /* Build configuration list for PBXNativeTarget "ETactFramework" */;
+			buildPhases = (
+				E6DFC6D21C15D48E00227726 /* Sources */,
+				E6DFC6D31C15D48E00227726 /* Frameworks */,
+				E6DFC6D41C15D48E00227726 /* Headers */,
+				E6DFC6D51C15D48E00227726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETactFramework;
+			productName = ETactFramework;
+			productReference = E6DFC6D71C15D48E00227726 /* ETactFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DFC6CE1C15D48E00227726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MEDES;
+				TargetAttributes = {
+					E6DFC6D61C15D48E00227726 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E6DFC6D11C15D48E00227726 /* Build configuration list for PBXProject "ETactFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6DFC6CD1C15D48E00227726;
+			productRefGroup = E6DFC6D81C15D48E00227726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DFC6D61C15D48E00227726 /* ETactFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DFC6D51C15D48E00227726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DFC6D21C15D48E00227726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E54F691C2950E000EFE58F /* ETCommand.m in Sources */,
+				E6E54F651C2950E000EFE58F /* ETBleData.m in Sources */,
+				E6E54F741C2950E000EFE58F /* ETBleController.m in Sources */,
+				E6E54F601C2950E000EFE58F /* ETBleDataHelper.m in Sources */,
+				E6E54F711C2950E000EFE58F /* ETByteUtils.m in Sources */,
+				E6E54F6B1C2950E000EFE58F /* ETInstructions.m in Sources */,
+				E6E54F5E1C2950E000EFE58F /* ETBartDataHelper.m in Sources */,
+				E6E54F6E1C2950E000EFE58F /* ETDataReaderController.m in Sources */,
+				E6E54F631C2950E000EFE58F /* ETReadHandler.m in Sources */,
+				E6E54F671C2950E000EFE58F /* ETBartData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6DFC6DD1C15D48E00227726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6DFC6DE1C15D48E00227726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6DFC6E01C15D48E00227726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFramework",
+				);
+				INFOPLIST_FILE = ETactFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.ETactFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6DFC6E11C15D48E00227726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFramework",
+				);
+				INFOPLIST_FILE = ETactFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ETactFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.ETactFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DFC6D11C15D48E00227726 /* Build configuration list for PBXProject "ETactFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFC6DD1C15D48E00227726 /* Debug */,
+				E6DFC6DE1C15D48E00227726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DFC6DF1C15D48E00227726 /* Build configuration list for PBXNativeTarget "ETactFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DFC6E01C15D48E00227726 /* Debug */,
+				E6DFC6E11C15D48E00227726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6DFC6CE1C15D48E00227726 /* Project object */;
+}

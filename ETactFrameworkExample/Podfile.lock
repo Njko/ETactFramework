@@ -1,0 +1,20 @@
+PODS:
+  - Charts (2.1.6)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+
+DEPENDENCIES:
+  - Charts
+  - CocoaLumberjack
+
+SPEC CHECKSUMS:
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+
+COCOAPODS: 0.39.0
