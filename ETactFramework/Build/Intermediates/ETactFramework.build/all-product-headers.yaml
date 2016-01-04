@@ -4,28 +4,108 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Headers",
+      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Release-iphoneos/ETactFramework.framework/Headers",
       'contents': [
         {
           'type': 'file',
+          'name': "ETBartData.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBartData.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETBartDataHelper.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBartDataHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETBleController.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBleController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETBleData.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBleData.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETBleDataHelper.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBleDataHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETBleReaderDelegate.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBleReaderDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETByteUtils.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETByteUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETCommand.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETConstants.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETDataReaderController.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETDataReaderController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETDataReaderDelegate.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETDataReaderDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETInstructions.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETInstructions.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETReadHandler.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETReadHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "ETReadHandlerDelegate.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETReadHandlerDelegate.h"
+        },
+        {
+          'type': 'file',
           'name': "ETactFramework-Swift.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Headers/ETactFramework-Swift.h"
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Release-iphoneos/ETactFramework.framework/Headers/ETactFramework-Swift.h"
         },
         {
           'type': 'file',
           'name': "ETactFramework.h",
           'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETactFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "RscMgr.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/RscMgr.h"
+        },
+        {
+          'type': 'file',
+          'name': "redparkSerial.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/redparkSerial.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Debug-iphoneos/ETactFramework.framework/Modules",
+      'name': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Products/Release-iphoneos/ETactFramework.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Intermediates/ETactFramework.build/Debug-iphoneos/ETactFramework.build/module.modulemap"
+          'external-contents': "/Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/Build/Intermediates/ETactFramework.build/Release-iphoneos/ETactFramework.build/module.modulemap"
         }
       ]
     }

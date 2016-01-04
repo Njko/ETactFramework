@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "65AE17B1D56F5348E15786E95146C1631944EF80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65AE17B1D56F5348E15786E95146C1631944EF80" : 0,
+    "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF5AE18B-05A4-4FC3-8D60-0C0801785B63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65AE17B1D56F5348E15786E95146C1631944EF80" : "etactframework\/",
+    "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ETactFrameworkExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ETactFrameworkExample\/ETactFrameworkExample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Njko\/ETactFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Njko\/ETactFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65AE17B1D56F5348E15786E95146C1631944EF80"
+    }
+  ]
+}

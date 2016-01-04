@@ -6,36 +6,51 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E6E54F841C29602A00EFE58F /* ETactFramework-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6E54F851C29602A00EFE58F /* Build configuration list for PBXAggregateTarget "ETactFramework-universal" */;
+			buildPhases = (
+				E6E54F881C29606800EFE58F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ETactFramework-universal";
+			productName = "ETactFramework-universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		E6DFC6DB1C15D48E00227726 /* ETactFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DFC6DA1C15D48E00227726 /* ETactFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6E54F5D1C2950E000EFE58F /* ETBartDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F421C2950E000EFE58F /* ETBartDataHelper.h */; };
+		E6E54F5D1C2950E000EFE58F /* ETBartDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F421C2950E000EFE58F /* ETBartDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F5E1C2950E000EFE58F /* ETBartDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F431C2950E000EFE58F /* ETBartDataHelper.m */; };
-		E6E54F5F1C2950E000EFE58F /* ETBleDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F441C2950E000EFE58F /* ETBleDataHelper.h */; };
+		E6E54F5F1C2950E000EFE58F /* ETBleDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F441C2950E000EFE58F /* ETBleDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F601C2950E000EFE58F /* ETBleDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F451C2950E000EFE58F /* ETBleDataHelper.m */; };
-		E6E54F611C2950E000EFE58F /* ETReadHandlerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F461C2950E000EFE58F /* ETReadHandlerDelegate.h */; };
-		E6E54F621C2950E000EFE58F /* ETReadHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F471C2950E000EFE58F /* ETReadHandler.h */; };
+		E6E54F611C2950E000EFE58F /* ETReadHandlerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F461C2950E000EFE58F /* ETReadHandlerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F621C2950E000EFE58F /* ETReadHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F471C2950E000EFE58F /* ETReadHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F631C2950E000EFE58F /* ETReadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F481C2950E000EFE58F /* ETReadHandler.m */; };
-		E6E54F641C2950E000EFE58F /* ETBleData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F491C2950E000EFE58F /* ETBleData.h */; };
+		E6E54F641C2950E000EFE58F /* ETBleData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F491C2950E000EFE58F /* ETBleData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F651C2950E000EFE58F /* ETBleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4A1C2950E000EFE58F /* ETBleData.m */; };
-		E6E54F661C2950E000EFE58F /* ETBartData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4B1C2950E000EFE58F /* ETBartData.h */; };
+		E6E54F661C2950E000EFE58F /* ETBartData.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4B1C2950E000EFE58F /* ETBartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F671C2950E000EFE58F /* ETBartData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4C1C2950E000EFE58F /* ETBartData.m */; };
-		E6E54F681C2950E000EFE58F /* ETCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4D1C2950E000EFE58F /* ETCommand.h */; };
+		E6E54F681C2950E000EFE58F /* ETCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4D1C2950E000EFE58F /* ETCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F691C2950E000EFE58F /* ETCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F4E1C2950E000EFE58F /* ETCommand.m */; };
-		E6E54F6A1C2950E000EFE58F /* ETInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4F1C2950E000EFE58F /* ETInstructions.h */; };
+		E6E54F6A1C2950E000EFE58F /* ETInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F4F1C2950E000EFE58F /* ETInstructions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F6B1C2950E000EFE58F /* ETInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F501C2950E000EFE58F /* ETInstructions.m */; };
-		E6E54F6C1C2950E000EFE58F /* ETDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F511C2950E000EFE58F /* ETDataReaderDelegate.h */; };
-		E6E54F6D1C2950E000EFE58F /* ETDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F521C2950E000EFE58F /* ETDataReaderController.h */; };
+		E6E54F6C1C2950E000EFE58F /* ETDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F511C2950E000EFE58F /* ETDataReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F6D1C2950E000EFE58F /* ETDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F521C2950E000EFE58F /* ETDataReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F6E1C2950E000EFE58F /* ETDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F531C2950E000EFE58F /* ETDataReaderController.m */; };
-		E6E54F6F1C2950E000EFE58F /* ETConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F541C2950E000EFE58F /* ETConstants.h */; };
-		E6E54F701C2950E000EFE58F /* ETByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F551C2950E000EFE58F /* ETByteUtils.h */; };
+		E6E54F6F1C2950E000EFE58F /* ETConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F541C2950E000EFE58F /* ETConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F701C2950E000EFE58F /* ETByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F551C2950E000EFE58F /* ETByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F711C2950E000EFE58F /* ETByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F561C2950E000EFE58F /* ETByteUtils.m */; };
-		E6E54F721C2950E000EFE58F /* ETBleReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F571C2950E000EFE58F /* ETBleReaderDelegate.h */; };
-		E6E54F731C2950E000EFE58F /* ETBleController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F581C2950E000EFE58F /* ETBleController.h */; };
+		E6E54F721C2950E000EFE58F /* ETBleReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F571C2950E000EFE58F /* ETBleReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F731C2950E000EFE58F /* ETBleController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F581C2950E000EFE58F /* ETBleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F741C2950E000EFE58F /* ETBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F591C2950E000EFE58F /* ETBleController.m */; };
 		E6E54F751C2950E000EFE58F /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E54F5A1C2950E000EFE58F /* libRscMgrUniv.a */; };
-		E6E54F761C2950E000EFE58F /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5B1C2950E000EFE58F /* redparkSerial.h */; };
-		E6E54F771C2950E000EFE58F /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5C1C2950E000EFE58F /* RscMgr.h */; };
+		E6E54F761C2950E000EFE58F /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5B1C2950E000EFE58F /* redparkSerial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E54F771C2950E000EFE58F /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E54F5C1C2950E000EFE58F /* RscMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E54F811C29525800EFE58F /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E54F801C29525800EFE58F /* CocoaLumberjack.framework */; };
+		E6E54F831C295FE300EFE58F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E54F821C295FE300EFE58F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +85,7 @@
 		E6E54F5B1C2950E000EFE58F /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		E6E54F5C1C2950E000EFE58F /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
 		E6E54F801C29525800EFE58F /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		E6E54F821C295FE300EFE58F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E54F831C295FE300EFE58F /* Foundation.framework in Frameworks */,
 				E6E54F811C29525800EFE58F /* CocoaLumberjack.framework in Frameworks */,
 				E6E54F751C2950E000EFE58F /* libRscMgrUniv.a in Frameworks */,
 			);
@@ -88,6 +105,7 @@
 		E6DFC6CD1C15D48E00227726 = {
 			isa = PBXGroup;
 			children = (
+				E6E54F821C295FE300EFE58F /* Foundation.framework */,
 				E6DFC6D91C15D48E00227726 /* ETactFramework */,
 				E6DFC6D81C15D48E00227726 /* Products */,
 			);
@@ -262,6 +280,9 @@
 					E6DFC6D61C15D48E00227726 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					E6E54F841C29602A00EFE58F = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = E6DFC6D11C15D48E00227726 /* Build configuration list for PBXProject "ETactFramework" */;
@@ -277,6 +298,7 @@
 			projectRoot = "";
 			targets = (
 				E6DFC6D61C15D48E00227726 /* ETactFramework */,
+				E6E54F841C29602A00EFE58F /* ETactFramework-universal */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +312,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6E54F881C29606800EFE58F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6DFC6D21C15D48E00227726 /* Sources */ = {
@@ -452,6 +490,22 @@
 			};
 			name = Release;
 		};
+		E6E54F861C29602A00EFE58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		E6E54F871C29602A00EFE58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,6 +526,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E6E54F851C29602A00EFE58F /* Build configuration list for PBXAggregateTarget "ETactFramework-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E54F861C29602A00EFE58F /* Debug */,
+				E6E54F871C29602A00EFE58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
