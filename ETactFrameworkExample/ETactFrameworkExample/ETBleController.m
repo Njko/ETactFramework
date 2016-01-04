@@ -61,7 +61,7 @@
     NSData *source = [advertisementData objectForKey:@"kCBAdvDataManufacturerData"];
     
     NSLog(@"advert data: %@",[source description]);
-    if (source) {
+    if (source && [source length] > 12) {
         ETBleData * value = [[ETBleData alloc] initWithData:source andDeviceId:periphID];
         [self.delegate didReceiveValue:value];
     }
