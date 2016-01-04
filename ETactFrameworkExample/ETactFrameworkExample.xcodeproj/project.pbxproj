@@ -24,6 +24,7 @@
 		E6DFC7511C186AC200227726 /* ETDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7451C186AC200227726 /* ETDataReaderController.m */; };
 		E6DFC7521C186AC200227726 /* ETByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC7481C186AC200227726 /* ETByteUtils.m */; };
 		E6DFC7531C186AC200227726 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DFC7491C186AC200227726 /* libRscMgrUniv.a */; };
+		E6E54F8B1C29633D00EFE58F /* FileBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E54F8A1C29633D00EFE58F /* FileBufferManager.m */; };
 		E6EBBE971C1EC1B700847C75 /* ETBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBBE961C1EC1B700847C75 /* ETBleController.m */; };
 		E6EBBE991C1EC1CC00847C75 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBBE981C1EC1CC00847C75 /* CoreBluetooth.framework */; };
 		E6EBBEA21C1EDECB00847C75 /* ETBleData.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBBEA11C1EDECB00847C75 /* ETBleData.m */; };
@@ -67,6 +68,8 @@
 		E6DFC7491C186AC200227726 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
 		E6DFC74A1C186AC200227726 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		E6DFC74B1C186AC200227726 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		E6E54F891C29633D00EFE58F /* FileBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileBufferManager.h; sourceTree = "<group>"; };
+		E6E54F8A1C29633D00EFE58F /* FileBufferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileBufferManager.m; sourceTree = "<group>"; };
 		E6EBBE951C1EC1B700847C75 /* ETBleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBleController.h; sourceTree = "<group>"; };
 		E6EBBE961C1EC1B700847C75 /* ETBleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBleController.m; sourceTree = "<group>"; };
 		E6EBBE981C1EC1CC00847C75 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				E65652F41C18912C00358B0A /* LoggerDecorator.m */,
 				E6DFC7261C186AA800227726 /* ViewController.h */,
 				E6DFC7271C186AA800227726 /* ViewController.m */,
+				E6E54F891C29633D00EFE58F /* FileBufferManager.h */,
+				E6E54F8A1C29633D00EFE58F /* FileBufferManager.m */,
 				E60953841C1F30D500A9DA21 /* BLEChartViewController.h */,
 				E60953851C1F30D500A9DA21 /* BLEChartViewController.m */,
 				E6DFC7291C186AA800227726 /* Main.storyboard */,
@@ -318,6 +323,7 @@
 				E6EBBEA21C1EDECB00847C75 /* ETBleData.m in Sources */,
 				E6DFC7251C186AA800227726 /* AppDelegate.m in Sources */,
 				E65652F51C18912C00358B0A /* LoggerDecorator.m in Sources */,
+				E6E54F8B1C29633D00EFE58F /* FileBufferManager.m in Sources */,
 				E6DFC74D1C186AC200227726 /* ETReadHandler.m in Sources */,
 				E6DFC7521C186AC200227726 /* ETByteUtils.m in Sources */,
 				E6DFC7511C186AC200227726 /* ETDataReaderController.m in Sources */,

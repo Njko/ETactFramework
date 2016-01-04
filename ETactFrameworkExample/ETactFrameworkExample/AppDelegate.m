@@ -54,4 +54,9 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(BOOL) storeDocumentWithMeta:(NSDictionary*)dict andBinaryFilePath:(NSString *)path {
+    //send the final data with metadatas and a path to the file to transmit
+    return true;
+}
+
 @end

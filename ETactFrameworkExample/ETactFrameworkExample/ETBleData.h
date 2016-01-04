@@ -13,7 +13,8 @@
 
 @property (nonatomic, readonly) NSData * rawData;
 @property (nonatomic, readonly) NSTimeInterval timestamp;
+@property (nonatomic, readonly) NSString * deviceID;
 
--(instancetype) initWithData: (NSData *)data;
+-(instancetype) initWithData: (NSData *)data andDeviceId:(NSString *) deviceId;
 
 @end

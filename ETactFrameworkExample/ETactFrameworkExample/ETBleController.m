@@ -55,14 +55,14 @@
  */
 -(void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI {
     
-    //NSString *periphID = peripheral.identifier.UUIDString;
+    NSString *periphID = peripheral.identifier.UUIDString;
     //NSLog(@"Peripheral discovered %@",periphID);
     
     NSData *source = [advertisementData objectForKey:@"kCBAdvDataManufacturerData"];
     
     NSLog(@"advert data: %@",[source description]);
     if (source) {
-        ETBleData * value = [[ETBleData alloc] initWithData:source];
+        ETBleData * value = [[ETBleData alloc] initWithData:source andDeviceId:periphID];
         [self.delegate didReceiveValue:value];
     }
 }

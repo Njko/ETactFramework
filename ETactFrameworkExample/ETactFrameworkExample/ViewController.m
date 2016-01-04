@@ -191,6 +191,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 - (void) didReceiveValue:(ETBleData *)value {
     NSDictionary * dict = [ETBleDataHelper dataToBleDataValues:value];
     NSMutableString * text = [[NSMutableString alloc] init];
+    [text appendString:[NSString stringWithFormat:@"deviceId: %@\n", value.deviceID]];
     [text appendString:[NSString stringWithFormat:@"company Id: %@\n",[dict objectForKey:@"companyID"]]];
     [text appendString:[NSString stringWithFormat:@"softwareVersion: %@\n",[dict objectForKey:@"softVersion"]]];
     [text appendString:[NSString stringWithFormat:@"batteryLevel: %@\n",[dict objectForKey:@"batteryLevel"]]];
