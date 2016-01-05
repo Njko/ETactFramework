@@ -32,23 +32,38 @@
     switch (_dataType) {
         case BartValueType_acceleration:
             typeString = @"acceleration";
+            if ([self.rawData length]< 7) {
+                valueString = @"X:0 Y:0 Z:0";
+                _isValid = NO;
+                break;
+            }
             acceleration = [ETBartDataHelper readAccelerationFromData:self];
             if ([acceleration count] == 3) {
-            valueString = [NSString stringWithFormat:@"X:%@ Y:%@ Z:%@",
-                           [acceleration objectAtIndex:0],
-                           [acceleration objectAtIndex:1],
-                           [acceleration objectAtIndex:2]];
+                valueString = [NSString stringWithFormat:@"X:%@ Y:%@ Z:%@",
+                               [acceleration objectAtIndex:0],
+                               [acceleration objectAtIndex:1],
+                               [acceleration objectAtIndex:2]];
             } else {
                 valueString = @"X:0 Y:0 Z:0";
             }
             break;
         case BartValueType_activity:
             typeString = @"activity";
+            if ([self.rawData length]< 5) {
+                valueString = @"0";
+                _isValid = NO;
+                break;
+            }
             activity = [ETBartDataHelper readActivityFromData:self];
             valueString = [NSString stringWithFormat:@"%@",activity];
             break;
         case BartValueType_temperature:
             typeString = @"temperature";
+            if ([self.rawData length]< 6) {
+                valueString = @"0";
+                _isValid = NO;
+                break;
+            }
             temperature = [ETBartDataHelper readTemperatureFromData:self];
             valueString = [NSString stringWithFormat:@"%@",temperature];
             break;

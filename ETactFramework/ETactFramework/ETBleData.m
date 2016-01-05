@@ -10,10 +10,11 @@
 
 @implementation ETBleData
 
-- (instancetype) initWithData:(NSData *)data {
+- (instancetype) initWithData:(NSData *)data andDeviceId:(NSString *)deviceId{
     if (self = [super init]) {
         _rawData = data;
         _timestamp = [[NSDate date] timeIntervalSince1970];
+        _deviceID = [NSString stringWithString:deviceId];
     }
     return self;
 }

@@ -75,7 +75,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 }
 
 -(void)handleResult {
-     // ACK - NACK packet reception
+    // ACK - NACK packet reception
     UInt8 command = [ETByteUtils readOneByteFrom:self.receivedBytes atIndex:0];
     UInt8 size = [ETByteUtils readOneByteFrom:self.receivedBytes atIndex:1];
     UInt8 result = [ETByteUtils readOneByteFrom:self.receivedBytes atIndex:2];

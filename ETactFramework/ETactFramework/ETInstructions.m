@@ -120,7 +120,7 @@
     // add the CRC
     UInt8 crc = [ETInstructions computeCrc:data];
     [data appendBytes:&crc length:sizeof(crc)];
-
+    
     return data;
 }
 

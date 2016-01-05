@@ -26,7 +26,7 @@
     valueX = [ETByteUtils readSignedInt:[data.rawData subdataWithRange:NSMakeRange(4, 1)]];
     valueY = [ETByteUtils readSignedInt:[data.rawData subdataWithRange:NSMakeRange(5, 1)]];
     valueZ = [ETByteUtils readSignedInt:[data.rawData subdataWithRange:NSMakeRange(6, 1)]];
-
+    
     return @[[NSNumber numberWithInt:valueX],[NSNumber numberWithInt:valueY],[NSNumber numberWithInt:valueZ]];
 }
 

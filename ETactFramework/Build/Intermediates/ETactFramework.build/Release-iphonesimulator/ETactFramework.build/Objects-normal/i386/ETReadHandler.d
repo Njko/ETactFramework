@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETReadHandler.m \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETReadHandler.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETReadHandlerDelegate.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETConstants.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETInstructions.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETByteUtils.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/ETBartData.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDAbstractDatabaseLogger.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDMultiFormatter.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDDispatchQueueLogFormatter.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDContextFilterLogFormatter.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDFileLogger.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDTTYLogger.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDASLLogger.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDASLLogCapture.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDAssertMacros.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDLogMacros.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDLegacyMacros.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/DDLog.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Headers/CocoaLumberjack.h \
+  /Users/nicolas.linard/Projects/ios/etactframework/ETactFramework/ETactFramework/CocoaLumberjack.framework/Modules/module.modulemap

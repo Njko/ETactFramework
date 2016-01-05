@@ -18,7 +18,6 @@
 +(NSNumber *) readTemperatureFromData:(ETBartData*) data;
 +(NSNumber *) readActivityFromData:(ETBartData *) data;
 +(NSString *)readBartVersionNumberFromData:(ETBartData *)data;
-+(BOOL) isDataValid:(ETBartData *)data;
 //TO REFACTOR
 +(NSString *) bartCommandTypeToString:(ETBartCommandType)type;
 +(NSString *) bartTypeToString:(ETBartType)type;

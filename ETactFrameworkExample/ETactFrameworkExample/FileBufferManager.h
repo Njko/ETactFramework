@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ETBartData.h"
 
 @interface FileBufferManager : NSObject
 
@@ -15,7 +16,7 @@
 -(NSArray *) readArrayBuffer;
 -(BOOL) writeDataBuffer:(NSData *)buffer;
 -(NSData *) readDataBuffer;
--(BOOL) pushValueToBuffer:(int) value;
+-(BOOL) pushValueToBuffer:(ETBartData *) value;
 
 -(void) openBuffer;
 -(void) closeBuffer;

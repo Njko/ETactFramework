@@ -8,8 +8,9 @@
 
 #import "FileBufferManager.h"
 #import "AppDelegate.h"
-#define SAMPLING_FREQUENCY 160
-#define DEVICE_ID 101
+#import "ETBartDataHelper.h"
+#define SAMPLING_FREQUENCY 1
+#define DEVICE_ID 102
 #define COEFF_MAX_VALUE 65535
 @import CocoaLumberjack;
 
@@ -20,7 +21,7 @@
 @property (nonatomic, strong) NSFileHandle *fileHandle;
 @property (nonatomic, strong) NSData *csvDataSeparator;
 @property (nonatomic) int coeff ;
-@property (nonatomic) int lastValue;
+//@property (nonatomic, strong) ETBartData * lastValue;
 @property (nonatomic) BOOL isBufferOpened;
 @property (nonatomic) BOOL isBufferCSV;
 @property (nonatomic) BOOL isBufferInitialized;
@@ -74,14 +75,14 @@ static const NSString * csvDataSeparatorString = @",";
     return [[NSData alloc] initWithContentsOfFile:self.filename];
 }
 
--(BOOL) pushValueToBuffer:(int)value {
+-(BOOL) pushValueToBuffer:(ETBartData *)value {
     if(self.isBufferOpened) {
         if (!self.isBufferInitialized) {
             self.isBufferInitialized = YES;
-            self.lastValue = value;
-            self.coeff = 0;
+            //self.lastValue = value;
+            //self.coeff = 0;
         }
-        
+        /*
         if (value == self.lastValue && self.coeff < COEFF_MAX_VALUE) {
             self.coeff++;
             return YES;
@@ -100,7 +101,24 @@ static const NSString * csvDataSeparatorString = @",";
         }
         
         self.coeff = 1;
-        self.lastValue = value;
+        self.lastValue = value;*/
+        
+        switch (value.dataType) {
+            case BartValueType_acceleration:
+                [ETBartDataHelper readAccelerationFromData:value];
+                break;
+            case BartValueType_activity:
+                [ETBartDataHelper readActivityFromData:value];
+                break;
+            case BartValueType_temperature:
+                [ETBartDataHelper readTemperatureFromData:value];
+                break;
+            default:
+                break;
+        }
+        
+        
+        
         return YES;
     }
     
@@ -115,7 +133,7 @@ static const NSString * csvDataSeparatorString = @",";
     
     self.startDateTime =roundf([[NSDate date] timeIntervalSince1970]*1000);
     self.isBufferCSV = NO;
-    self.filename = [NSString stringWithFormat:@"%@/buffer_%ld%@",[self.paths objectAtIndex:0],(long)self.startDateTime,self.isBufferCSV?@".csv":@".dat"];
+    self.filename = [NSString stringWithFormat:@"%@/buffer_ET_%ld%@",[self.paths objectAtIndex:0],(long)self.startDateTime,self.isBufferCSV?@".csv":@".dat"];
     
     int intBuffer;
     //Initializaing the header of the file
